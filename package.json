@@ -1,0 +1,51 @@
+{
+  "name": "ampersand-router-query-parameters",
+  "description": "Ampersand Router with support for Query Parameters. Basically a merge of Ampersand Router & Backbone Query Parameters Plugin",
+  "version": "0.1",
+  "dependencies": {
+    "ampersand-class-extend": "^1.0.0",
+    "backbone-events-standalone": "0.2.2",
+    "underscore": "1.6.0"
+  },
+  "devDependencies": {
+    "browserify": "^4.1.10",
+    "jshint": "^2.5.3",
+    "phantomjs": "^1.9.7-15",
+    "precommit-hook": "^1.0.7",
+    "run-browser": "^1.3.1",
+    "tap-spec": "^0.2.0",
+    "tape": "^2.13.2",
+    "tape-run": "^0.1.1"
+  },
+  "homepage": "https://github.com/nickryall/ampersand-router-query-parameters",
+  "keywords": [
+    "clientside",
+    "router",
+    "history"
+  ],
+  "license": "MIT",
+  "main": "ampersand-router-query-parameters.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nickryall/ampersand-router-query-parameters"
+  },
+  "scripts": {
+    "start": "run-browser test/index.js",
+    "test": "browserify test/index.js | tape-run | tap-spec"
+  },
+  "gitHead": "1078017b98bf3a45174e29a07d5322e470313a5f",
+  "_id": "ampersand-router@1.0.5",
+  "_shasum": "912695d958b9879951fdfaae073bafddef0f874b",
+  "_from": "ampersand-router@1.0.5",
+  "_npmVersion": "1.4.21",
+  "_npmUser": {
+    "name": "lukekarrys",
+    "email": "luke@lukekarrys.com"
+  },
+  "maintainers": [
+    {
+      "name": "nickryall",
+      "email": "me@nickryall.com.au"
+    }
+  ]
+}
