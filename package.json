@@ -2,7 +2,7 @@
   "name": "ampersand-router-query-parameters",
   "description": "Ampersand Router with support for Query Parameters. Basically a merge of Ampersand Router & Backbone Query Parameters Plugin",
   "version": "1.0.0",
-  "devDependencies": {
+  "dependencies": {
     "ampersand-class-extend": "^1.0.0",
     "backbone-events-standalone": "0.2.2",
     "underscore": "1.6.0"
